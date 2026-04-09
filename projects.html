@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Projects - Wildan</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">WA<span>.</span></div>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a class="active" href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="section">
+  <h2>My Projects</h2>
+
+  <div class="filter-buttons">
+    <button onclick="filterProject('all')">All</button>
+    <button onclick="filterProject('web')">Web</button>
+    <button onclick="filterProject('system')">System</button>
+  </div>
+
+  <div class="project-container">
+    <div class="project web">
+      <h3>Aplikasi Towing</h3>
+      <p>Aplikasi layanan derek kendaraan berbasis web.</p>
+    </div>
+
+    <div class="project web">
+      <h3>Website Rumah Sakit</h3>
+      <p>Sistem informasi rumah sakit untuk manajemen pasien.</p>
+    </div>
+
+    <div class="project system">
+      <h3>Sistem Kasir</h3>
+      <p>Aplikasi kasir untuk manajemen transaksi dan laporan.</p>
+    </div>
+  </div>
+</section>
+
+<script src="js/script.js"></script>
+</body>
+</html>
